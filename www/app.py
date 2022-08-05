@@ -14,6 +14,7 @@ from datetime import datetime
 
 from aiohttp import web
 
+print("加油")
 def index(request):
     return web.Response(body=b'<h1>Awesome</h1>',headers={'content-type':'text/html'})
 
